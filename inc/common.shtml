@@ -6,8 +6,7 @@
 <meta content="black" name="apple-mobile-web-app-status-bar-style">     
 <meta content="telephone=no" name="format-detection">
 
-<script src="js/jquery-1.11.2.min.js"></script>
-<script src="js/navmouse.js"></script>
+<link href="bootstrap-3.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet"> 
 <link href="font-awesome-4.2.0/css/font-awesome-ie7.min.css" rel="stylesheet"> 
 <link href="css/base.css" rel="stylesheet"> 
