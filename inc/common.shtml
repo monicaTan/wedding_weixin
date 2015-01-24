@@ -1,0 +1,14 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=1" name="viewport">     
+<meta content="yes" name="apple-mobile-web-app-capable">     
+<meta content="black" name="apple-mobile-web-app-status-bar-style">     
+<meta content="telephone=no" name="format-detection">
+
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/navmouse.js"></script>
+<link href="font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet"> 
+<link href="font-awesome-4.2.0/css/font-awesome-ie7.min.css" rel="stylesheet"> 
+<link href="css/base.css" rel="stylesheet"> 
+<link href="css/style.css" rel="stylesheet">

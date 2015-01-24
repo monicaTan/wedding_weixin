@@ -1,0 +1,23 @@
+	<div class="header">
+		<div class="nav clearfix">
+			<div class="logo">
+				<a href="home.shtml"><img src="images/logo.jpg"></a>
+			</div>
+			<ul class="nav-ul">
+				<li class="active"><a href="home.shtml"><span>首页</span><em>Home</em></a></li>
+				<li><a href="index.shtml"><span>新梦想视频</span><em>TD Video</em></a></li>
+				<li><a href="images.shtml"><span>新梦想图片</span><em>TD Picture</em></a></li>
+				<li><a href="news.shtml"><span>新梦想新闻</span><em>TD News</em></a></li>
+				<li><a href="info.shtml"><span>关于发心</span><em>About Mercy</em></a></li>
+				<li><a href="contact.shtml"><span>联系我们</span><em>Contact Us</em></a></li>
+			</ul>
+			<!-- <ul class="nav-ul">
+				<li class="active"><a href="home.shtml">首页/Home</a></li>
+				<li><a href="index.shtml">大会视频/Video</a></li>
+				<li><a href="images.shtml">大会图片/Picture</a></li>
+				<li><a href="news.shtml">大会新闻/News</a></li>
+				<li><a href="info.shtml">信息/Info</a></li>
+				<li><a href="contact.shtml">联系我们/Contact</a></li>
+			</ul> -->
+		</div>
+	</div>
