@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--#include file="inc/common.shtml"--> 
+<link rel="stylesheet" type="text/css" href="css/slider.css">
+<title>婚礼套系</title>
+<!--#include file="inc/ie.shtml"-->
+</head>
+
+<body>
+
+<!-- header -->
+<div class="header">
+	<div class="taoxi-top">
+		<div id="full-width-slider" class="royalSlider heroSlider rsMinW">
+			<div class="rsContent">
+				<img class="rsImg" src="images/1.jpg" alt="" />
+				<div class="infoBlock infoBlockLeftBlack rsABlock" data-fade-effect="" data-move-offset="10" data-move-effect="bottom" data-speed="200">
+					<h4>图片标题</h4>
+				</div>
+			</div>
+			<div class="rsContent">
+				<img class="rsImg" src="images/2.jpg" alt="" />
+				<div class="infoBlock rsABlock infoBlockLeftBlack" data-fade-effect="" data-move-offset="10" data-move-effect="bottom" data-speed="200">
+					<h4>图片标题</h4>
+				</div>
+			</div>
+			<div class="rsContent">
+				<img class="rsImg" src="images/1.jpg" alt="" />
+				<div class="infoBlock rsABlock infoBlockLeftBlack" data-fade-effect="" data-move-offset="10" data-move-effect="bottom" data-speed="200">
+					<h4>图片标题</h4>
+				</div>
+			</div>
+			<div class="rsContent">
+				<img class="rsImg" src="images/2.jpg" alt="" />
+				<div class="infoBlock rsABlock infoBlockLeftBlack" data-fade-effect="" data-move-offset="10" data-move-effect="bottom" data-speed="200">
+					<h4>图片标题</h4>
+				</div>
+			</div>
+		</div>
+		<h3 class="zhuti-shoucang">
+			<span>《天空之城》主题婚礼</span>
+			<!-- <a href="javascript:void(0)"><i class="fa fa-heart"></i></a> --><!-- 已点赞 -->
+			<a href="javascript:void(0)"><i class="fa fa-heart-o"></i></a><!-- 未点赞 -->
+		</h3>
+	</div>
+</div>
+<!-- main-content -->
+<div class="main-content">
+	<div class="content-module">
+		<div class="container-fluid through-module">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="content-box">
+						<h2 class="title2 title2-right">婚礼人<span>套系价格-58888</span></h2>
+						<div class="main-content">
+							<div class="pd15">
+								<div class="container-fluid">
+									<div class="row hunliren-box">
+										<div class="col-xs-3 hunliren-face">
+											<a href="javascript:void(0)"><img src="images/user.jpg"></a>
+											<h2><a href="javascript:void(0)">诗缔婚礼</a></h2>
+											<h5><a href="javascript:void(0)">Lucy</a></h5>
+											<p class="renzheng-btn"><a href="javascript:void(0)">认证策划师</a></p>
+										</div>
+										<div class="col-xs-9">
+											<div class="hunliren-graph">
+												<img src="images/hunliren.jpg">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid through-module">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="content-box">
+						<h2 class="title2">套系内容</h2>
+						<div class="main-content">
+							<h5 class="title5">内容介绍</h5>
+							<ul class="list-circle">
+								<li><span>了解新人婚礼意向，为新人提供婚礼创意 </span></li>
+								<li><span>与新人沟通，确定婚礼策划方案</span></li>
+								<li><span>策划督导完成整场婚礼策划</span></li>
+							</ul>
+							<h5 class="title5">客户要求</h5>
+							<p class="text-all">做一个只对自己说谎的哑巴</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid through-module">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="content-box">
+						<h2 class="title2">用户评价</h2>
+						<div class="main-content main-content-taoxi">
+							<div class="pd15">
+								<div class="container-fluid">
+									<div class="row user-comments-box">
+										<div class="col-xs-2">
+											<a href="javascript:void(0)"><img class="user-comments-img" src="images/user.jpg"></a>
+										</div>
+										<div class="col-xs-10">
+											<div class="user-comments">
+												他听见有人唱着古老的歌他听见有人唱着古老的歌他听见有人唱着古老的歌他听见有人唱着古老的歌
+											</div>
+										</div>
+									</div>
+									<div class="row user-comments-box">
+										<div class="col-xs-2">
+											<a href="javascript:void(0)"><img class="user-comments-img" src="images/user.jpg"></a>
+										</div>
+										<div class="col-xs-10">
+											<div class="user-comments">
+												他听见有人唱着古老的歌他听见有人唱着古老的歌他听见有人唱着古老的歌他听见有人唱着古老的歌
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="add-gouwu">
+								<button class="btn btn-info" type="button">加入购物车</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<a class="gouwuche-fixed" href="javascript:void(0)"></a>
+
+<!--#include file="inc/footer.shtml"-->
+<script type="text/javascript" src="js/jquery.royalslider.min.js?v=9.3.6"></script>
+<script type="text/javascript">
+$(document).ready(function($){
+	// 轮播
+	$('#full-width-slider').royalSlider({
+		arrowsNav: false,
+		loop: false,
+		keyboardNavEnabled: true,
+		controlsInside: false,
+		imageScaleMode: 'fill',
+		arrowsNavAutoHide: false,
+		autoScaleSlider: true, 
+		autoScaleSliderWidth: 960,     
+		autoScaleSliderHeight: 645,
+		controlNavigation: 'bullets',
+		thumbsFitInViewport: false,
+		navigateByClick: true,
+		startSlideId: 0,
+		autoPlay: false,
+		transitionType:'move',
+		globalCaption: true,
+		deeplinking: {
+			enabled: true,
+			change: false
+		},
+		imgWidth: 1400,
+		imgHeight: 766
+	});
+	
+});
+</script>
+</body>
+</html>

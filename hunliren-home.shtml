@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--#include file="inc/common.shtml"--> 
+<title>婚礼人主页</title>
+<!--#include file="inc/ie.shtml"-->
+</head>
+
+<body>
+
+<!-- header -->
+<div class="header">
+	<div class="personal-home-top">
+		<div class="personal-banner">
+			<div class="bottom-bgwhite"></div>
+			<div class="personal-touxiang">
+				<a class="user-img" href="javascript:void(0)">
+					<img src="images/default.jpg">
+				</a>
+				<h2>
+					<a href="javascript:void(0)">诗缔婚礼</a>
+				</h2>
+			</div>
+			<a class="heart-icon" href="javascript:void(0)"><i class="fa fa-heart"></i></a>
+		</div>
+		<h3>
+			<span>运城</span>
+			<span>28岁</span>
+			<span>从业5年</span>
+		</h3>
+	</div>
+</div>
+<!-- main-content -->
+<div class="main-content">
+	<div class="content-module">
+		<div class="pd15">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="content-box">
+							<h2 class="title2">个人介绍</h2>
+							<div class="main-content main-content-personal">
+								<p>毕业于中国传媒大学，喜欢从事婚礼创意行业，为每一对新人策划自己独一无二的婚礼</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="pd15">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="content-box">
+							<h2 class="title2">服务内容</h2>
+							<div class="main-content main-content-personal">
+								<ul class="list-square">
+									<li><span>了解新人婚礼意向，为新人提供婚礼创意 </span></li>
+									<li><span>与新人沟通，确定婚礼策划方案</span></li>
+									<li><span>策划督导完成整场婚礼策划</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="pd15">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="content-box">
+							<h2 class="title2">作品案例</h2>
+							<div class="main-content main-content-case">
+								<div class="row">
+									<div class="col-xs-6">
+										<a href="javascript:void(0)"><img class="img-responsive" src="images/img190.jpg"></a>
+										<p class="case-title">
+											<a href="javascript:void(0)">《哆啦A梦》</a>
+										</p>
+									</div>
+									<div class="col-xs-6">
+										<a href="javascript:void(0)"><img class="img-responsive" src="images/img190.jpg"></a>
+										<p class="case-title">
+											<a href="javascript:void(0)">《哆啦A梦》</a>
+										</p>
+									</div>
+									<div class="col-xs-6">
+										<a href="javascript:void(0)"><img class="img-responsive" src="images/img190.jpg"></a>
+										<p class="case-title">
+											<a href="javascript:void(0)">《哆啦A梦》</a>
+										</p>
+									</div>
+									<div class="col-xs-6">
+										<a href="javascript:void(0)"><img class="img-responsive" src="images/img190.jpg"></a>
+										<p class="case-title">
+											<a href="javascript:void(0)">《哆啦A梦》</a>
+										</p>
+									</div>
+								</div>
+								<div class="yuyue">
+									<button type="button" class="btn btn-info">预约</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--#include file="inc/footer.shtml"-->
+</body>
+</html>

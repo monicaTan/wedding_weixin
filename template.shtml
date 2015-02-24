@@ -8,16 +8,16 @@
 </head>
 
 <body>
-<div class="wrap">
-	<!-- header -->
-	<div class="header">header</div>
-	<!-- main-content -->
-	<div class="main-content">
-		<h1>你好，世界！</h1>
-	</div>
-	<!-- footer -->
-	<div class="footer">footer</div>
+
+<!-- header -->
+<div class="header">header</div>
+<!-- main-content -->
+<div class="main-content">
+	<h1>你好，世界！</h1>
 </div>
+<!-- footer -->
+<div class="footer">footer</div>
+
 
 <!--#include file="inc/footer.shtml"-->
 </body>
