@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--#include file="inc/common.shtml"--> 
+<title>套系浏览</title>
+<!--#include file="inc/ie.shtml"-->
+</head>
+
+<body>
+
+
+<!-- main-content -->
+<div class="main-content main-content-pd0">
+	<div class="bg-e">
+		<div class="tab-module">
+			<ul class="nav nav-tabs" role="tablist" id="myTab">
+				<li role="presentation" class="active"><a href="#chaozhi" aria-controls="chaozhi" role="tab" data-toggle="tab">超值套系</a></li>
+				<li role="presentation"><a href="#gaoduan" aria-controls="gaoduan" role="tab" data-toggle="tab">高端套系</a></li>
+			</ul>
+
+			<div class="tab-content">
+				<div role="tabpanel" class="tab-pane active" id="chaozhi">
+					<div class="tab-inner-tab">
+						<ul class="nav-small">
+							<li><a href="javascript:void:(0)">排序</a></li>
+							<li><a href="javascript:void:(0)">销量优先</a></li>
+							<li><a href="javascript:void:(0)">风格</a></li>
+						</ul>
+
+						<div class="tab-box">
+							<div class="div-content div-content1">
+								<div class="paixu-down">
+									<ul>
+										<li><a href="javascript:void(0)">默认推荐</a></li>
+										<li><a href="javascript:void(0)">价格从低到高</a></li>
+										<li><a href="javascript:void(0)">价格从高到低</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="div-content">&nbsp;</div>
+							<div class="div-content">
+								<div class="style-down">
+									<a href="hunli-taoxi-details.shtml">中式</a>
+									<a href="javascript:void(0)">欧式</a>
+									<a href="javascript:void(0)">田园</a>
+									<a href="javascript:void(0)">复古</a>
+									<a href="javascript:void(0)">主题</a>
+									<a href="javascript:void(0)">清新</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="img-txt-average">
+						<div class="average-box">
+							<div class="pd10 clearfix">
+								<div class="average-6">
+									<a href="javascript:void:(0)">
+										<img class="img-responsive" src="images/img2.jpg" alt="300x200">
+									</a>
+								</div>
+								<div class="average-6">
+									<h2><a href="javascript:void(0)">《蒲公英的决定》<br/><span>主题婚礼</span></a></h2>
+									<p class="price-pingtai"><span>平台价：58888</span></p>
+									<div class="address-collection">
+										<span><i class="fa fa-map-marker"></i>运城盐湖区国际酒店</span>
+										<!-- <a href="javascript:void(0)"><i class="fa fa-star"></i></a> --><!-- 已收藏 -->
+										<a href="javascript:void(0)"><i class="fa fa-star-o"></i></a><!-- 未收藏 -->
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="average-box">
+							<div class="pd10 clearfix">
+								<div class="average-6">
+									<a href="javascript:void:(0)">
+										<img class="img-responsive" src="images/img2.jpg" alt="300x200">
+									</a>
+								</div>
+								<div class="average-6">
+									<h2><a href="javascript:void(0)">《蒲公英的决定》<br/><span>主题婚礼</span></a></h2>
+									<p class="price-pingtai"><span>平台价：58888</span></p>
+									<div class="address-collection">
+										<span><i class="fa fa-map-marker"></i>运城盐湖区国际酒店</span>
+										<!-- <a href="javascript:void(0)"><i class="fa fa-star"></i></a> --><!-- 已收藏 -->
+										<a href="javascript:void(0)"><i class="fa fa-star-o"></i></a><!-- 未收藏 -->
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="average-box">
+							<div class="pd10 clearfix">
+								<div class="average-6">
+									<a href="javascript:void:(0)">
+										<img class="img-responsive" src="images/img2.jpg" alt="300x200">
+									</a>
+								</div>
+								<div class="average-6">
+									<h2><a href="javascript:void(0)">《蒲公英的决定》<br/><span>主题婚礼</span></a></h2>
+									<p class="price-pingtai"><span>平台价：58888</span></p>
+									<div class="address-collection">
+										<span><i class="fa fa-map-marker"></i>运城盐湖区国际酒店</span>
+										<!-- <a href="javascript:void(0)"><i class="fa fa-star"></i></a> --><!-- 已收藏 -->
+										<a href="javascript:void(0)"><i class="fa fa-star-o"></i></a><!-- 未收藏 -->
+									</div>
+								</div>
+							</div>
+						</div>
+						<p class="add-more">加载更多</p>
+					</div>
+				</div>
+				<div role="tabpanel" class="tab-pane" id="gaoduan">
+					2
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--#include file="inc/footer.shtml"-->
+<script type="text/javascript">
+	$(function(){
+		$(".new-dream-weixin").click(function (event) {
+			if($('.new-dream-weixin img').is(":visible")){
+		    	$content.hide();
+		        }else{
+		            $('.new-dream-weixin img').show();
+		    };
+		    $(document).one("click", function () {
+		        $(".new-dream-weixin img").hide();
+		    });
+		    event.stopPropagation();
+		});
+
+		//tab
+
+			$('.nav-small > li').click(function(event){
+		        $(this).addClass('active-li').siblings().removeClass('active-li');
+				$(this).parent('.nav-small').next('.tab-box').find('.div-content').hide().eq($(this).index()).show();
+				$(document).one("click", function () {
+			        $(".div-content").hide();
+			    });
+			    event.stopPropagation();
+			});
+
+	})
+</script>
+</body>
+</html>

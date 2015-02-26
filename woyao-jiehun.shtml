@@ -79,7 +79,7 @@
 	<h2 class="title-h2">
 		婚纱摄影/酒店
 	</h2>
-	<p class="guide-btn">
+	<p class="guide-btn clearfix">
 		<a href="javascript:void(0)">婚纱摄影</a>
 		<a href="javascript:void(0)">酒店婚宴</a>
 	</p>
