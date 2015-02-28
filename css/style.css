@@ -3,7 +3,7 @@ html{ font-size: 10px;font-family: "Microsoft YaHei",Arial;}
 body{background-color: #eee;}
 /*gotop*/
 .cbbfixed {position: fixed;right: 10px;transition: bottom ease .3s;bottom: -85px;z-index: 3;cursor:pointer;}
-.cbbfixed .cbbtn {width: 40px;height: 40px;display: block;background-color: #29b4bd;}
+.cbbfixed .cbbtn {width: 40px;height: 40px; border-radius: 50%; display: block;background-color: #29b4bd;}
 .cbbfixed .gotop {transition: background-color ease .3s;margin-top: 1px;}
 .cbbfixed .gotop .up-icon{float:left;margin:14px 0 0 9px;width:23px;height:12px;background: url("../images/side-icon02.png");}
 .cbbfixed .gotop:hover {background-color:#2c2d2e;}
@@ -159,7 +159,8 @@ body{background-color: #eee;}
 .tab-box{position: relative; width: 100%;}
 .div-content{ display: none; line-height: 0; background-color: rgba(255, 255, 255, 0.8); position: absolute; left: 0; top: 0; z-index: 10; width: 100%;}
 .main-content-pd0{ padding: 0;}
-
+/* taoxi-liulan
+-------------------------------------------------------------------------------- */
 .paixu-down ul > li{border-bottom: 1px solid #d8d4d7; padding-left: 10%;}
 .paixu-down ul > li > a{ display: inline-block; line-height: 9rem; font-size: 2.4rem; color: #666; width: 100%;}
 .paixu-down ul > li > a:hover,
@@ -181,8 +182,99 @@ body{background-color: #eee;}
 .address-collection > a >i{font-size: 3.4rem; color: white; vertical-align: middle;}
 .add-more{ text-align: center; font-size: 2.8rem; color: #999;margin: 6% 0;}
 
+/* hunliren-liulan
+-------------------------------------------------------------------------------- */
+.div-content-active{ display: block;}
+.average-box2{ position: relative; background-color: white; padding: 1.5625% 0 1.5625%; margin-bottom: 3.125%;}
+.average-40,
+.average-60{ padding: 0 5px; float: left;}
+
+.average-40{ width: 40%;}
+.average-40 > a{ width: 100%; display: inline-block; position: relative;}
+.average-60{ width: 60%;}
+.renzheng-pingtai{color: #72ced4; font-size: 2.4rem; text-align: center; margin-bottom: 7.73%;}
+.renzheng-pingtai span{display: inline-block; border: 1px solid #72ced4; border-radius: 8px; padding: 2px 4px;}
+.price{ font-size: 2.8rem; text-align: center;}
+.price span{ color: #e60012;}
+.average-box2 .address-collection { font-size: 1.8rem; padding:12.5% 56px 0 13.33%;}
+
+.average-box3{ position: relative; background-color: white; padding: 3.125% 0 3.125%; margin-bottom: 3.125%;}
+.average-28,
+.average-68{ padding: 0 5px;}
+
+.average-28{ width: 28%; float: left;}
+.average-68{ width: 68%; float: right; text-align: left;}
+.average-68 h2 {border-bottom: 1px solid #72ced4; font-weight: normal;}
+.average-68 h2 a{font-size: 2.8rem; line-height: 4.4rem;}
+.average-68 h2 span{ color: #72ced4; font-size: 1.8rem; display: inline-block; border: 1px solid #72ced4; border-radius: 8px; padding: 2px 4px; margin-left: 9%;}
+.average-68 h2,
+.average-68 p{ text-align: left;}
+.average-28 > a,
+.average-28 > a > img{ width: 100%; display: inline-block; border-radius: 50%;}
+
+.service-scope { font-size: 1.4rem; padding:6% 56px 0 0;}
+.service-scope > span{ color: #999;}
+.service-scope > span > i{ margin-right: 6%; color: #c9c9c9; font-size: 2.4rem;}
+.service-scope > a{ display: inline-block; width: 56px; height: 56px; background-color: #72ced4; text-align: center; line-height: 56px; position: absolute; bottom: 0; right: 0;}
+.service-scope > a >i{font-size: 3.4rem; color: white; vertical-align: middle;}
+.jingyan{ font-size: 2rem; color: #999; margin-bottom: 5%;}
+.average-68 .price{ font-size: 2.4rem;}
+.mini-mark{ position: absolute; top: 0; left: 0; font-size: 2rem; color: white; background-color: #72ced4; padding: 2.8% 3%;}
+.average-60 .renzheng-mark14{ margin-bottom: 10.6%;}
+.average-60 .renzheng-mark14 span{ font-size: 1.4rem; display: inline-block; border: 1px solid #333; border-radius: 0; padding: 2px 4px; text-align: center;}
+
+.average-box-mark .average-60{ float: right; width: 54%;}
+.average-box-mark h2,
+.average-box-mark p{ text-align: left;}
+.all-num{ margin-bottom: 6%;}
+.all-num > a{ font-size: 2.4rem; color: #333;}
+.all-num > a span{ margin-right: 11%;}
+.all-num > a em,
+.all-num > a i{ font-size: 3rem; color: #72ced4; padding: 0 4px;}
+.average-box-mark .average-60 .address-collection{ padding-left: 0; padding-top: 4%;}
+.average-60 h5{ text-align: center; font-size: 1.8rem; color: #999; font-weight: normal; margin-bottom: 7%;}
+.xianjia{ text-align: center; margin-bottom: 4.4%;}
+.xianjia span{ font-size: 2.8rem; line-height: 3.8rem; color: white; display: inline-block;background-color: #f3aecc; padding: 0 5.6%;}
+.yuanjia{ text-align: center; font-size: 1.8rem; color: #999; text-decoration: line-through;}
+.average-box-mark,
+.average-box-red{ padding: 3.125% 0;}
+.average-box-red .address-collection{ padding-top: 30px; text-align: center;}
 
 
+/* jiudian-hunyan
+-------------------------------------------------------------------------------- */
+.max-module{ margin: 1.57% 0 20%;}
+.max-block{ position: relative;margin-bottom: 4.8%;}
+.mark-price{ padding: 0 3.75%; background-color: #f19ec2; color: white; display: inline-block; font-size: 3rem; line-height: 5rem; position: absolute; right: 0; bottom:0; z-index: 2;}
+.mark-price > i{ margin-right: 6px;}
+.mark-content{ padding: 0.9%; background-color: rgba(0, 0, 0, 0.7); color: white; display: inline-block; font-size: 1.8rem; position: absolute; left: 0; top:0;}
+.mark-content .fa-clock-o{ margin-right: 8px;}
+.mark-block{ width: 100%; background-color: rgba(255, 255, 255, 0.9); position: absolute; left: 0; bottom: 2.4%;}
+.mark-block > h2{ font-weight: normal; font-size: 3rem; line-height: 5rem; background-color: #29b4bd; margin: 2.125% 0 3.9%; position: relative;}
+.mark-block > h2,
+.mark-block > h2 .shoucang{color: white;}
+.mark-block > h2 > a{color: white;}
+.mark-block > h2 .shoucang{ position: absolute; right: 1.5%; top: 0; padding-left: 20px; font-size: 3.3rem;}
+.mark-block > h2,
+.mark-block > p{padding-left: 7%;}
+.mark-block > p{font-size: 2.4rem; margin-bottom: 1%;}
+.mark-block > p .last-txt{margin-left: 6.8%;}
+.btn-p{ line-height: 6rem;}
+.mark-block .max-block-address{ font-size: 2rem; color: #999; margin-bottom: 2.8%;}
+.pink-btn{ background-color: #f3acca; color: white; display: inline-block; font-size: 3.6rem; line-height: 6rem; padding: 0 4.6%; border-radius: 6px; vertical-align: middle; float: right; margin: 0 1.5% 0 0;}
+.screening-module{ background-color: #eee; padding: 4.6% 8% 3.125%;}
+.screening-module dl{margin-bottom: 1.48%;}
+.screening-module dt{ font-size: 2.4rem; color: #999; line-height:3rem; margin: 0 1.9% 3.8%;}
+.screening-module dd{ background-color: #eee; font-size: 0;}
+.screening-module dd a{ color: #999; line-height: 4.8rem; border-radius: 8px; padding: 0 7.4%;font-size: 2rem; border: 1px solid #999; display: inline-block; white-space: nowrap; margin: 0 1.9% 4.6%;}
+.screening-module dd .active-a{ color: #29b4bd; border-color: #29b4bd;}
+.button-p{ text-align: right;}
+.button-p .blue-btn{ font-size: 2.4rem; line-height: 4.4rem; display: inline-block; padding: 0 5%; color: white; background-color: #29b4bd; border-radius: 8px;}
+.level{ font-size: 0;}
+.level > i{ font-size: 1.3rem; margin-left: 10px;}
+.btn-small{ line-height: 6rem;}
+.btn-small > span{ padding: 0 8px;}
+.btn-small > small{color: #999;}
 
 
 @media screen and (max-width : 570px) {
@@ -194,7 +286,12 @@ body{background-color: #eee;}
 	.heart-icon{ width: 53px; height: 53px;}
 	.gouwuche-fixed{ width: 70px; height: 70px;}
 	.address-collection { padding:15% 49px 0 13.33%;}
+	.average-box2 .address-collection { padding:18.75% 49px 0 0;}
 	.address-collection > a{  width: 49px; height: 49px; line-height: 49px;}
+	.average-box-mark .average-60 .address-collection{ padding-top: 10%;}
+	.average-box-red .address-collection{ padding-top: 14%;}
+	.service-scope { padding:5% 49px 0 13.33%;}
+	.service-scope > a{  width: 49px; height: 49px; line-height: 49px;}
 }
 
 @media screen and (max-width : 480px) {
@@ -212,6 +309,16 @@ body{background-color: #eee;}
 	.style-down > a{ margin: 3.2%;}
 	.address-collection { padding-right: 42px;}
 	.address-collection > a{  width: 42px; height: 42px; line-height: 42px;}
+	.average-box2 .address-collection { padding:14.3% 49px 0 13.33%;}
+	.average-box-mark .average-60 .address-collection{ padding-top: 6%;}
+	.average-box-red .address-collection{ padding-top: 10%;}
+	.mark-content .fa-clock-o{ margin-right: 4px;}
+
+	.service-scope { padding-right: 42px; padding-top: 7%;}
+	.service-scope > a{  width: 42px; height: 42px; line-height: 42px;}
+	.screening-module dd a{ border-radius: 6px;}
+	.button-p .blue-btn{ border-radius: 4px;}
+	.level > i{ font-size: 1.3rem; margin-left: 5px;}
 }
 
 @media screen and (max-width : 360px) {
@@ -223,6 +330,13 @@ body{background-color: #eee;}
 	.heart-icon{ width: 33px; height: 33px;}
 	.address-collection { padding:15% 31px 0 13.33%;}
 	.address-collection > a{  width: 31px; height: 31px; line-height: 31px;}
+	.average-box2 .address-collection { padding:17% 30px 0 13.33%;}
+
+	.service-scope { padding:8% 31px 0 0;}
+	.service-scope > a{  width: 31px; height: 31px; line-height: 31px;}
+	.average-box-mark .average-60 .address-collection{ padding-top: 10%;}
+	.average-box-red .address-collection{ padding-top: 14px;}
+	.average-60 .renzheng-mark14{ margin-bottom: 8%;}
 }
 
 
@@ -232,4 +346,11 @@ body{background-color: #eee;}
 	.heart-icon{ width: 30px; height: 30px;}
 	.address-collection { padding:8% 28px 0 13.33%;}
 	.address-collection > a{  width: 28px; height: 28px; line-height: 28px;}
+	.average-box2 .address-collection { padding:14% 30px 0 13.33%;}
+
+	.service-scope { padding:5% 28px 0 13.33%;}
+	.service-scope > a{  width: 28px; height: 28px; line-height: 28px;}
+	.average-box-mark .average-60 .address-collection{ padding-top: 6%;}
+	.average-box-red .address-collection{ padding-top: 16px;}
+	
 }

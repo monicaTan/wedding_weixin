@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--#include file="inc/common.shtml"--> 
+<title>婚礼摄影浏览</title>
+<!--#include file="inc/ie.shtml"-->
+</head>
+
+<body>
+
+
+<!-- main-content -->
+<div class="main-content main-content-pd0">
+	<div class="bg-e">
+		<div class="tab-module">
+			<ul class="nav nav-tabs" role="tablist" id="myTab">
+				<li role="presentation" class="active"><a href="#chaozhi" aria-controls="chaozhi" role="tab" data-toggle="tab">品牌商家</a></li>
+				<li role="presentation"><a href="#gaoduan" aria-controls="gaoduan" role="tab" data-toggle="tab">摄影套系</a></li>
+			</ul>
+
+			<div class="tab-content">
+				<div role="tabpanel" class="tab-pane active" id="chaozhi">
+					<div class="tab-inner-tab">
+						<ul class="nav-small">
+							<li><a href="javascript:void:(0)">排序</a></li>
+							<li><a href="javascript:void:(0)">销量优先</a></li>
+							<li><a href="javascript:void:(0)">筛选</a></li>
+						</ul>
+
+						<div class="tab-box">
+							<div class="div-content div-content-active">
+								<div class="paixu-down">
+									<ul>
+										<li><a href="javascript:void(0)">默认推荐</a></li>
+										<li><a href="javascript:void(0)">价格从低到高</a></li>
+										<li><a href="javascript:void(0)">价格从高到低</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="div-content">&nbsp;</div>
+							<div class="div-content">
+								<div class="screening-module">
+									<dl>
+										<dt>优惠</dt>
+										<dd>
+											<a class="active-a" href="javascript:void(0)">活动商家</a>
+											<a href="javascript:void(0)">团购套系</a>
+										</dd>
+									</dl>
+
+									<dl>
+										<dt>风格</dt>
+										<dd>
+											<a class="active-a" href="javascript:void(0)">清新</a>
+											<a href="javascript:void(0)">韩式</a>
+											<a href="javascript:void(0)">复古</a>
+											<a href="javascript:void(0)">旅行</a>
+											<a href="javascript:void(0)">个性</a>
+											<a href="javascript:void(0)">欧美</a>
+										</dd>
+									</dl>
+
+									<dl>
+										<dt>分类</dt>
+										<dd>
+											<a class="active-a" href="javascript:void(0)">婚纱摄影楼</a>
+											<a href="javascript:void(0)">摄影工作室</a>
+										</dd>
+									</dl>
+									<p class="button-p"><a class="blue-btn" href="javascript:void(0)">确定</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="img-txt-average">
+						<div class="average-box2 average-box-mark">
+							<div class="pd10 clearfix">
+								<div class="average-40">
+									<a href="javascript:void:(0)">
+										<img class="img-responsive" src="images/grey236.jpg" alt="238x238">
+										<span class="mini-mark">优惠</span>
+									</a>
+								</div>
+								<div class="average-60">
+									<h2><a href="javascript:void(0)">MENGBA婚纱摄影</a></h2>
+									<p class="renzheng-mark14"><span>平台认证机构</span></p>
+									<p class="all-num">
+										<a href="javascript:void(0)"><span>婚纱套系<em>9</em>套</span>优惠<i>5</i>套</a>
+									</p>
+									<p class="price">价格：<span>30000-60000</span></p>
+									<div class="address-collection">
+										<span><i class="fa fa-map-marker"></i>运城盐湖区国际酒店</span>
+										<!-- <a href="javascript:void(0)"><i class="fa fa-star"></i></a> --><!-- 已收藏 -->
+										<a href="javascript:void(0)"><i class="fa fa-star-o"></i></a><!-- 未收藏 -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div role="tabpanel" class="tab-pane" id="gaoduan">
+					<div class="tab-inner-tab">
+						<ul class="nav-small">
+							<li><a href="javascript:void:(0)">排序</a></li>
+							<li><a href="javascript:void:(0)">销量优先</a></li>
+							<li><a href="javascript:void:(0)">筛选</a></li>
+						</ul>
+
+						<div class="tab-box">
+							<div class="div-content div-content1">
+								<div class="paixu-down">
+									<ul>
+										<li><a href="javascript:void(0)">默认推荐</a></li>
+										<li><a href="javascript:void(0)">价格从低到高</a></li>
+										<li><a href="javascript:void(0)">价格从高到低</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="div-content">&nbsp;</div>
+							<div class="div-content">
+								<div class="screening-module">
+									<dl>
+										<dt>优惠</dt>
+										<dd>
+											<a class="active-a" href="javascript:void(0)">活动商家</a>
+											<a href="javascript:void(0)">团购套系</a>
+										</dd>
+									</dl>
+
+									<dl>
+										<dt>风格</dt>
+										<dd>
+											<a class="active-a" href="javascript:void(0)">清新</a>
+											<a href="javascript:void(0)">韩式</a>
+											<a href="javascript:void(0)">复古</a>
+											<a href="javascript:void(0)">旅行</a>
+											<a href="javascript:void(0)">个性</a>
+											<a href="javascript:void(0)">欧美</a>
+										</dd>
+									</dl>
+
+									<dl>
+										<dt>分类</dt>
+										<dd>
+											<a class="active-a" href="javascript:void(0)">婚纱摄影楼</a>
+											<a href="javascript:void(0)">摄影工作室</a>
+										</dd>
+									</dl>
+									<p class="button-p"><a class="blue-btn" href="javascript:void(0)">确定</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="img-txt-average">
+						<div class="average-box2 average-box-red">
+							<div class="pd10 clearfix">
+								<div class="average-40">
+									<a href="javascript:void:(0)">
+										<img class="img-responsive" src="images/grey236.jpg" alt="238x238">
+										<span class="mini-mark">优惠</span>
+									</a>
+								</div>
+								<div class="average-60">
+									<h2><a href="javascript:void(0)">MENGBA婚纱摄影</a></h2>
+									<h5>专业团队为您打造高端婚纱摄影</h5>
+									<p class="xianjia"><span>团购价：8990</span></p>
+									<p class="yuanjia">原价：12890</p>
+									<div class="address-collection">
+										<span><i class="fa fa-map-marker"></i>运城盐湖区国际酒店</span>
+										<!-- <a href="javascript:void(0)"><i class="fa fa-star"></i></a> --><!-- 已收藏 -->
+										<a href="javascript:void(0)"><i class="fa fa-star-o"></i></a><!-- 未收藏 -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--#include file="inc/footer.shtml"-->
+
+</body>
+</html>

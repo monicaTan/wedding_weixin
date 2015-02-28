@@ -1,0 +1,262 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--#include file="inc/common.shtml"--> 
+<title>酒店婚宴</title>
+<!--#include file="inc/ie.shtml"-->
+</head>
+
+<body>
+
+
+<!-- main-content -->
+<div class="main-content main-content-pd0">
+	<div class="bg-e">
+		<div class="tab-module">
+			<ul class="nav nav-tabs" role="tablist" id="myTab">
+				<li role="presentation" class="active"><a href="#chaozhi" aria-controls="chaozhi" role="tab" data-toggle="tab">婚宴酒店</a></li>
+				<li role="presentation"><a href="#gaoduan" aria-controls="gaoduan" role="tab" data-toggle="tab">酒宴团购</a></li>
+			</ul>
+
+			<div class="tab-content">
+				<div role="tabpanel" class="tab-pane active" id="chaozhi">
+					<div class="tab-inner-tab">
+						<ul class="nav-small">
+							<li><a href="javascript:void:(0)">排序</a></li>
+							<li><a href="javascript:void:(0)">销量优先</a></li>
+							<li><a href="javascript:void:(0)">筛选</a></li>
+						</ul>
+
+						<div class="tab-box">
+							<div class="div-content div-content-active">
+								<div class="paixu-down">
+									<ul>
+										<li><a href="javascript:void(0)">默认推荐</a></li>
+										<li><a href="javascript:void(0)">价格从低到高</a></li>
+										<li><a href="javascript:void(0)">价格从高到低</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="div-content">&nbsp;</div>
+							<div class="div-content">
+								<div class="screening-module">
+									<dl>
+										<dt>酒店类型</dt>
+										<dd>
+											<a class="active-a" href="javascript:void(0)">全部</a>
+											<a href="javascript:void(0)">经济型酒店</a>
+											<a href="javascript:void(0)">星级酒店</a>
+											<a href="javascript:void(0)">清真餐厅</a>
+											<a href="javascript:void(0)">会所</a>
+										</dd>
+									</dl>
+
+									<dl>
+										<dt>酒宴桌数</dt>
+										<dd>
+											<a class="active-a" href="javascript:void(0)">全部</a>
+											<a href="javascript:void(0)">20以下</a>
+											<a href="javascript:void(0)">20-40</a>
+											<a href="javascript:void(0)">40-60</a>
+											<a href="javascript:void(0)">60-80</a>
+											<a href="javascript:void(0)">80以上</a>
+										</dd>
+									</dl>
+
+									<dl>
+										<dt>包间</dt>
+										<dd>
+											<a class="active-a" href="javascript:void(0)">全部</a>
+											<a href="javascript:void(0)">有</a>
+											<a href="javascript:void(0)">无</a>
+										</dd>
+									</dl>
+
+									<dl>
+										<dt>停车场</dt>
+										<dd>
+											<a class="active-a" href="javascript:void(0)">全部</a>
+											<a href="javascript:void(0)">有</a>
+											<a href="javascript:void(0)">无</a>
+										</dd>
+									</dl>
+									<p class="button-p"><a class="blue-btn" href="javascript:void(0)">确定</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="max-module">
+						<div class="max-block">
+							<img class="img-responsive" src="images/640.jpg" alt="640x450">
+							<span class="mark-content"><i class="fa fa-clock-o"></i>限时特惠</span>
+							<!-- 点击mark-block跳转到对应酒店详情页 -->
+							<div class="mark-block">
+								<h2>
+									<a href="javascript:void(0)">运城国际酒店</a>
+									<!-- <a class="shoucang" href="javascript:void(0)"><i class="fa fa-star"></i></a> --><!-- 已收藏 -->
+									<a class="shoucang" href="javascript:void(0)"><i class="fa fa-star-o"></i></a><!-- 未收藏 -->
+								</h2>
+								<p><span>宴会大厅：3个</span><span class="last-txt">停车场</span></p>
+								<p class="btn-p clearfix">酒宴桌数：20-80桌<em class="pink-btn">999-3999/桌</em></p>
+								<p class="max-block-address"><i class="fa fa-map-marker"></i>运城盐湖区上海路88号</p>
+							</div>
+						</div>
+
+						<div class="max-block">
+							<img class="img-responsive" src="images/640.jpg" alt="640x450">
+							<span class="mark-content"><i class="fa fa-clock-o"></i>限时特惠</span>
+							<!-- 点击mark-block跳转到对应酒店详情页 -->
+							<div class="mark-block">
+								<h2>
+									<a href="javascript:void(0)">运城国际酒店</a>
+									<!-- <a class="shoucang" href="javascript:void(0)"><i class="fa fa-star"></i></a> --><!-- 已收藏 -->
+									<a class="shoucang" href="javascript:void(0)"><i class="fa fa-star-o"></i></a><!-- 未收藏 -->
+								</h2>
+								<p><span>宴会大厅：3个</span><span class="last-txt">停车场</span></p>
+								<p class="btn-p clearfix">酒宴桌数：20-80桌<em class="pink-btn">999-3999/桌</em></p>
+								<p class="max-block-address"><i class="fa fa-map-marker"></i>运城盐湖区上海路88号</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div role="tabpanel" class="tab-pane" id="gaoduan">
+					<div class="tab-inner-tab">
+						<ul class="nav-small">
+							<li><a href="javascript:void:(0)">排序</a></li>
+							<li><a href="javascript:void:(0)">销量优先</a></li>
+							<li><a href="javascript:void:(0)">筛选</a></li>
+						</ul>
+
+						<div class="tab-box">
+							<div class="div-content">
+								<div class="paixu-down">
+									<ul>
+										<li><a href="javascript:void(0)">默认推荐</a></li>
+										<li><a href="javascript:void(0)">价格从低到高</a></li>
+										<li><a href="javascript:void(0)">价格从高到低</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="div-content">&nbsp;</div>
+							<div class="div-content">
+								<div class="screening-module">
+									<dl>
+										<dt>酒店类型</dt>
+										<dd>
+											<a class="active-a" href="javascript:void(0)">全部</a>
+											<a href="javascript:void(0)">经济型酒店</a>
+											<a href="javascript:void(0)">星级酒店</a>
+											<a href="javascript:void(0)">清真餐厅</a>
+											<a href="javascript:void(0)">会所</a>
+										</dd>
+									</dl>
+
+									<dl>
+										<dt>酒宴桌数</dt>
+										<dd>
+											<a class="active-a" href="javascript:void(0)">全部</a>
+											<a href="javascript:void(0)">20以下</a>
+											<a href="javascript:void(0)">20-40</a>
+											<a href="javascript:void(0)">40-60</a>
+											<a href="javascript:void(0)">60-80</a>
+											<a href="javascript:void(0)">80以上</a>
+										</dd>
+									</dl>
+
+									<dl>
+										<dt>包间</dt>
+										<dd>
+											<a class="active-a" href="javascript:void(0)">全部</a>
+											<a href="javascript:void(0)">有</a>
+											<a href="javascript:void(0)">无</a>
+										</dd>
+									</dl>
+
+									<dl>
+										<dt>停车场</dt>
+										<dd>
+											<a class="active-a" href="javascript:void(0)">全部</a>
+											<a href="javascript:void(0)">有</a>
+											<a href="javascript:void(0)">无</a>
+										</dd>
+									</dl>
+									<p class="button-p"><a class="blue-btn" href="javascript:void(0)">确定</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="max-module">
+						<div class="max-module">
+							<div class="max-block">
+								<img class="img-responsive" src="images/640.jpg" alt="640x450">
+								<span class="mark-content"><i class="fa fa-clock-o"></i></span>
+								<!-- 点击mark-block跳转到对应酒店详情页 -->
+								<div class="mark-block">
+									<h2>
+										<a href="javascript:void(0)">运城国际酒店</a>
+										<span class="level">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</span>
+										<!-- <a class="shoucang" href="javascript:void(0)"><i class="fa fa-star"></i></a> --><!-- 已收藏 -->
+										<a class="shoucang" href="javascript:void(0)"><i class="fa fa-star-o"></i></a><!-- 未收藏 -->
+									</h2>
+									<p><span>宴会厅A（可容纳10-30桌）</span><span class="last-txt">停车场</span></p>
+									<p class="btn-small clearfix">婚宴单桌套餐：18菜<span>不含酒水</span><small>详细查看套餐详情</small></p>
+									<p class="max-block-address"><i class="fa fa-map-marker"></i>运城盐湖区上海路88号</p>
+								</div>
+								<span class="mark-price"><i class="fa fa-shopping-cart"></i>1888/桌</span>
+							</div>
+
+							<div class="max-block">
+								<img class="img-responsive" src="images/640.jpg" alt="640x450">
+								<span class="mark-content"><i class="fa fa-clock-o"></i></span>
+								<!-- 点击mark-block跳转到对应酒店详情页 -->
+								<div class="mark-block">
+									<h2>
+										<a href="javascript:void(0)">运城国际酒店</a>
+										<span class="level">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</span>
+										<!-- <a class="shoucang" href="javascript:void(0)"><i class="fa fa-star"></i></a> --><!-- 已收藏 -->
+										<a class="shoucang" href="javascript:void(0)"><i class="fa fa-star-o"></i></a><!-- 未收藏 -->
+									</h2>
+									<p><span>宴会厅A（可容纳10-30桌）</span><span class="last-txt">停车场</span></p>
+									<p class="btn-small clearfix">婚宴单桌套餐：18菜<span>不含酒水</span><small>详细查看套餐详情</small></p>
+									<p class="max-block-address"><i class="fa fa-map-marker"></i>运城盐湖区上海路88号</p>
+								</div>
+								<span class="mark-price"><i class="fa fa-shopping-cart"></i>1888/桌</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--#include file="inc/footer.shtml"-->
+<script type="text/javascript">
+	$(function(){
+	
+		//tab
+
+			/*$('.nav-small > li').click(function(event){
+		        $(this).addClass('active-li').siblings().removeClass('active-li');
+				$(this).parent('.nav-small').next('.tab-box').find('.div-content').hide().eq($(this).index()).show();
+				$(document).one("click", function () {
+			        $(".div-content").hide();
+			    });
+			    event.stopPropagation();
+			});*/
+
+	})
+</script>
+</body>
+</html>

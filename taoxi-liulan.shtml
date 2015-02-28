@@ -121,32 +121,5 @@
 </div>
 
 <!--#include file="inc/footer.shtml"-->
-<script type="text/javascript">
-	$(function(){
-		$(".new-dream-weixin").click(function (event) {
-			if($('.new-dream-weixin img').is(":visible")){
-		    	$content.hide();
-		        }else{
-		            $('.new-dream-weixin img').show();
-		    };
-		    $(document).one("click", function () {
-		        $(".new-dream-weixin img").hide();
-		    });
-		    event.stopPropagation();
-		});
-
-		//tab
-
-			$('.nav-small > li').click(function(event){
-		        $(this).addClass('active-li').siblings().removeClass('active-li');
-				$(this).parent('.nav-small').next('.tab-box').find('.div-content').hide().eq($(this).index()).show();
-				$(document).one("click", function () {
-			        $(".div-content").hide();
-			    });
-			    event.stopPropagation();
-			});
-
-	})
-</script>
 </body>
 </html>
