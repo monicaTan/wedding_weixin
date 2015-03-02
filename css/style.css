@@ -322,10 +322,8 @@ input::-webkit-search-cancel-button {
 
 /* wode-hunli
 -------------------------------------------------------------------------------- */
-.img-6l,
-.img-6r{ width:49.2%; background-color: white;}
-.img-6l{float: left;}
-.img-6r{ float: right;}
+.img-6{ width:49.2%; background-color: white;float: left;}
+.img-6:first-child{margin-right: 1.6%;}
 
 .tab-module2 > .nav-tabs{ margin-bottom: 1.5625%;}
 .tab-module2 > .nav-tabs {border-bottom:none; background-color: #eee;}
@@ -343,10 +341,12 @@ input::-webkit-search-cancel-button {
 .tab-module2 > .nav-tabs > .active > a:focus{ color: #29b4bd; background-color: #fff; border: none;}
 
 .box-img-link{ position: relative; width: 100%; text-align: center;}
-.box-img-link img{ width: 100%;}
-.box-img-link .img-circle{ width: 50%;}
+.box-img-txt > a{ display: inline-block; width: 100%;}
+.box-img-txt > a.img-circle{ display: inline-block;width: 50.79%; margin: 8.25% 0 7.64%; }
+.box-img-txt img{ width: 100%;}
+.box-img-txt .img-circle{ display: inline-block;}
 .box-img-link > a{ width: 100%; position: absolute; left: 0; bottom: 0; background-color: rgba(51, 51, 51, 0.7); color: white; font-size: 2.4rem; line-height: 6rem; text-align: center; display: inline-block;}
-
+.box-img-txt > p{ font-size: 2.2rem; line-height: 4rem;}
 /* yuyue
 -------------------------------------------------------------------------------- */
 .top-center{ text-align: center; padding: 7% 0 3.125%; border-bottom: 1px solid #29b4bd;}
