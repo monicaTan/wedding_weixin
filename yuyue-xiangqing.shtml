@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--#include file="inc/common.shtml"--> 
+<title>预约详情</title>
+<!--#include file="inc/ie.shtml"-->
+</head>
+
+<body>
+
+
+<!-- main-content -->
+<div class="main-content main-content-pd0">
+	<div class="bg-e">
+		<div class="module-cell xiangqing-top">
+			<div class="pd25">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-xs-4">
+							<a class="img-link150" href="javascript:void(0)"><img class="img-circle" src="images/user.jpg"></a>
+						</div>
+						<div class="col-xs-8">
+							<h2 class="h36b">
+								<a href="javascript:void(0)">婚礼策划师-刘皮皮</a>
+							</h2>
+							<p>
+								<span class="label-blue">认证婚礼策划师</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="module-cell xiangqing-body">
+			<div class="pd25">
+				<div class="container-fluid">
+					<div class="row list-cell">
+						<div class="col-xs-12">
+							<h4 class="title-cell">预约内容</h4>
+							<div class="content-cell">
+								<p>您已成功预约诗缔婚礼策划机构的婚礼策划师刘皮皮，请您按预约时间到店与我们的策划师进行沟通。</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="row list-cell">
+						<div class="col-xs-12">
+							<h4 class="title-cell">预约时间</h4>
+							<div class="content-cell">
+								<p>您预约的到店咨询时间为2015年8月28日下午2点</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="row list-cell">
+						<div class="col-xs-12">
+							<h4 class="title-cell">预约地点</h4>
+							<div class="content-cell">
+								<p>地址：运城盐湖区北京路国贸大厦A座606运城婚礼工作室，电话：021-1234567</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<a class="button-block" href="javascript:void(0)">取消预约</a>
+	</div>
+</div>
+
+<!--#include file="inc/footer.shtml"-->
+</body>
+</html>

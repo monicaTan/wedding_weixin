@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--#include file="inc/common.shtml"--> 
+<title>酒店详情</title>
+<!--#include file="inc/ie.shtml"-->
+</head>
+
+<body>
+
+
+<!-- main-content -->
+<div class="main-content main-content-pd0">
+	<div class="bg-e">
+		<div class="module-block">
+			<div class="module-block-content">
+				<div class="module-block-top clearfix">
+					<div class="block-top-left">
+						<a href="javascript:void(0)"><img src="images/default2.jpg" alt="200x200"></a>
+					</div>
+					<div class="block-top-right">
+						<h2>运城国际大酒店</a></h2>
+						<span class="label-blue">平台认证婚礼酒店</span>
+						<p class="p-num">
+							<span>酒宴大厅<em>9</em>个</span><em>20-50</em>桌/厅
+						</p>
+						<p class="p-num2"><span>5888-28888/桌</span></p>
+					</div>
+					<span class="block-top-mark">活动商家</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="module-block">
+			<div class="module-block-content">
+				<div class="pd15">
+					<h5>商家简介</h5>
+					<p class="text">我们是专业的婚礼策划机构，拥有多名职业婚礼人，我们会竭力为您打造属于您的完美婚礼，我们在运城已有多家分店，方便新人到店与</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="tab-module2 tab-grey">
+			<ul class="nav nav-tabs" role="tablist" id="myTab">
+				<li role="presentation" class="active"><a href="#dating" aria-controls="dating" role="tab" data-toggle="tab">大厅<em>(9)</em></a></li>
+				<li role="presentation"><a href="#hunyan" aria-controls="hunyan" role="tab" data-toggle="tab">婚宴<em>(5)</em></a></li>
+			</ul>
+
+			<div class="tab-content">
+				<div role="tabpanel" class="tab-pane active" id="dating">
+					<div class="case-block">
+						<a href="javascript:void(0)">
+							<img class="img-responsive" src="images/aa.jpg" alt="640x390">
+						</a>
+						<span class="mark">9888/套<i class="fa fa-gift"></i></span>
+						<div class="case-text case-text2">
+							<div class="case-title">
+								<a href="javascript:void(0)">宴会厅A <span>30桌</span></a>
+							</div>
+							<p class="case-p">（面积：600平米；层高：6米；舞台：长方形，5平米；其他：可搭舞台等）</p>
+						</div>
+					</div>
+
+					<div class="case-block">
+						<a href="javascript:void(0)">
+							<img class="img-responsive" src="images/aa.jpg" alt="640x390">
+						</a>
+						<span class="mark">9888/套<i class="fa fa-gift"></i></span>
+						<div class="case-text case-text2">
+							<div class="case-title">
+								<a href="javascript:void(0)">宴会厅A <span>30桌</span></a>
+							</div>
+							<p class="case-p">（面积：600平米；层高：6米；舞台：长方形，5平米；其他：可搭舞台等）</p>
+						</div>
+					</div>
+				</div>
+				<div role="tabpanel" class="tab-pane" id="hunyan">
+					<div class="case-block">
+						<a href="javascript:void(0)">
+							<img class="img-responsive" src="images/aa.jpg" alt="640x390">
+						</a>
+						<div class="case-text">
+							<div class="case-title">
+								<a href="javascript:void(0)">婚宴套餐A</a>
+								<span>
+									优惠价：<em>8890</em>/桌<small>原价：12880</small>
+								</span>
+							</div>
+							<p class="case-p">（热菜：10；凉菜：8；汤：1；主食：米饭/馒头/饼；是否含酒水：否）</p>
+						</div>
+					</div>
+
+					<div class="case-block">
+						<a href="javascript:void(0)">
+							<img class="img-responsive" src="images/aa.jpg" alt="640x390">
+						</a>
+						<div class="case-text">
+							<div class="case-title">
+								<a href="javascript:void(0)">婚宴套餐A</a>
+								<span>
+									优惠价：<em>8890</em>/桌<small>原价：12880</small>
+								</span>
+							</div>
+							<p class="case-p">（热菜：10；凉菜：8；汤：1；主食：米饭/馒头/饼；是否含酒水：否）</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--#include file="inc/footer.shtml"-->
+
+</body>
+</html>

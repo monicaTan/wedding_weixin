@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--#include file="inc/common.shtml"--> 
+<title>酒宴详情</title>
+<!--#include file="inc/ie.shtml"-->
+</head>
+
+<body>
+
+
+<!-- main-content -->
+<div class="main-content main-content-pd0">
+	<div class="bg-e">
+		<div class="module-block">
+			<div class="module-block-content">
+				<div class="module-block-inner">
+					<div class="case-block">
+						<a href="javascript:void(0)">
+							<img alt="640x390" src="images/aa.jpg" class="img-responsive">
+						</a>
+						<div class="case-text case-text2">
+							<div class="case-title">
+								<p class="case-title-po">
+									优惠价：8890/桌<span>原价：12890/桌</span>
+									<!-- <a class="shoucang href="javascript:void(0)"><i class="fa fa-star"></i></a> --><!-- 已收藏 -->
+									<a class="shoucang" href="javascript:void(0)"><i class="fa fa-star-o"></i></a><!-- 未收藏 -->
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="module-block-txt">
+						<h2><a href="javascript:void(0)">婚宴套餐A</a></h2>
+						<small>提前抢订获得更多优惠</small>
+						<a href="javascript:void(0)" class="pink-btn">预约抢订</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="module-block-content">
+				<div class="module-block-txt">
+					<h5>酒店信息：</h5>
+					<div class="po-box">
+						<img class="shangjia-img" src="images/default2.jpg" >
+						<div class="po-txt">
+							<h4>运城婚礼摄影工作室</h4>
+							<p>我们是专业的婚纱摄影工作室。爱在西元前很多系列</p>
+						</div>
+						<p class="details">
+							<a href="javascript:void(0)">进入酒店<i class="fa fa-caret-right"></i></a>
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="module-block-content">
+				<div class="module-block-txt">
+					<h5>套餐内容：</h5>
+					<table class="table table-bordered">
+						<tr>
+							<td colspan="2">
+								<P class="p-l">菜总量：18菜；热菜；10个；凉菜：8个；主食：馒头/米饭/饼等是否含酒水：否</P>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<P class="title">菜谱</P>
+							</td>
+						</tr>
+  						<tr>
+  							<td width="50%">
+								<p class="title">热菜</p>
+								<p>新郎造型：5套</p>
+								<p>新郎造型：5套</p>
+								<p>新郎造型：5套</p>
+  							</td>
+  							<td>
+								<p class="title">凉菜</p>
+								<p>拍摄张数：不少于200</p>
+								<p>精修张数：60</p>
+								<p>放大张数：4</p>
+								<p>入册张数：30</p>
+  							</td>
+  						</tr>
+  						<tr>
+  							<td>
+								<p class="title">主食</p>
+								<p>相册：2个
+								<p>摆台：1个
+								<p>其他：价值880元的精致迎宾海报，相册一个电子</p>
+  							</td>
+  							<td width="50%">
+								<p class="title">酒水</p>
+								<p>新郎造型：5套</p>
+								<p>新郎造型：5套</p>
+								<p>新郎造型：5套</p>
+  							</td>
+  						</tr>
+					</table>
+
+					<h5>优惠详情：</h5>
+					<div>
+						<p>优惠须知：本单优惠需提前预约</p>
+						<p>优惠有效期：2014.0808至2016.0606</p>
+						<p>套系内容可同价位调换</p>
+						<p>具体以商家提供为标准，最终解释权归商家所有。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--#include file="inc/footer.shtml"-->
+
+</body>
+</html>
