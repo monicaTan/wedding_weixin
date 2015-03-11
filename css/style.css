@@ -75,6 +75,7 @@ input::-webkit-search-cancel-button {
 
 
 .main-content{ padding-bottom: 6.66%; background-color: white;}
+.circle-theme-content{ padding-bottom: 0;}
 .title2{ font-size: 3rem; color: #29b4bd; font-weight: normal; line-height: 5.4rem; border-bottom: 1px solid #29b4bd; text-indent: 4rem; margin-bottom: 3%;}
 .title2 a{color: #29b4bd;}
 .main-content-personal p{ line-height: 4.4rem; font-size: 2.4rem; padding:0 6.66%; text-align: justify;}
@@ -189,7 +190,7 @@ input::-webkit-search-cancel-button {
 .address-collection > span{ color: #999;}
 .address-collection > span > i{ margin-right: 6%; color: #c9c9c9; font-size: 2.4rem;}
 .address-collection > a{ display: inline-block; width: 56px; height: 56px; background-color: #29b4bd; text-align: center; line-height: 56px; position: absolute; bottom: 0; right: 0;}
-.address-collection > a >i{font-size: 3.4rem; color: white; vertical-align: middle;}
+.address-collection > a >i{font-size: 3.4rem; color: white;}
 .add-more{ text-align: center; font-size: 2.8rem; color: #999;margin: 6% 0;}
 
 /* hunliren-liulan
