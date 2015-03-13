@@ -265,7 +265,7 @@ input::-webkit-search-cancel-button {
 .mark-block > h2,
 .mark-block > h2 .shoucang{color: white;}
 .mark-block > h2 > a{color: white;}
-.mark-block > h2 .shoucang{ position: absolute; right: 1.5%; top: 8px; padding-left: 20px; font-size: 3.3rem;}
+.mark-block > h2 .shoucang{ position: absolute; right: 1.5%; top: 10px; padding-left: 20px; font-size: 3.3rem;}
 .mark-block > h2,
 .mark-block > p{padding-left: 7%;}
 .mark-block > p{font-size: 2.4rem; margin-bottom: 1%;}
@@ -461,7 +461,7 @@ input::-webkit-search-cancel-button {
 	.service-scope > a{  width: 49px; height: 49px; line-height: 49px;}
 	.pd25{ padding: 0 10px;}
 	.form-module .form-text{ height: 78px;}
-	.mark-block > h2 .shoucang{ top: 6px;}
+	.mark-block > h2 .shoucang{ top: 8px;}
 }
 
 @media screen and (max-width : 480px) {
@@ -495,7 +495,7 @@ input::-webkit-search-cancel-button {
 	.case-block > .mark .fa-gift{ margin-left: 5px;}
 	.module-block-top{ padding:4.6875% 15px;}
 	.case-text a span{padding-left: 15px;}
-	.mark-block > h2 .shoucang{ top: 6px;}
+	.mark-block > h2 .shoucang{ top: 9px;}
 }
 
 @media screen and (max-width : 360px) {
@@ -517,7 +517,7 @@ input::-webkit-search-cancel-button {
 	.average-60 .renzheng-mark14{ margin-bottom: 8%;}
 	.form-module .form-text{ height: 49px;}
 	.module-block-top{ padding:4.6875% 10px;}
-	.mark-block > h2 .shoucang{ top: 4px;}
+	.mark-block > h2 .shoucang{ top: 6px;}
 }
 
 
@@ -536,6 +536,6 @@ input::-webkit-search-cancel-button {
 	.average-box-mark .average-60 .address-collection{ padding-top: 6%;}
 	.average-box-red .address-collection{ padding-top: 16px;}
 	.form-module .form-text{ height: 44px;}
-	.mark-block > h2 .shoucang{ top: 4px;}
+	.mark-block > h2 .shoucang{ top: 5px;}
 	
 }
