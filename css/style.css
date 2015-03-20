@@ -54,7 +54,7 @@ input::-webkit-search-cancel-button {
 /* hunliren-home
 -------------------------------------------------------------------------------- */
 .personal-home-top{ background-color: white; padding-bottom: 1.57%;}
-.personal-banner{ position: relative; height: 350px; width: 100%; background: url("../images/bg_02.jpg") no-repeat scroll center top / 100% auto rgba(0, 0, 0, 0);}
+.personal-banner{ position: relative; height: 350px; width: 100%; background: url("../images/bg_02.jpg") no-repeat scroll center top / auto 100% rgba(0, 0, 0, 0);}
 .bottom-bgwhite{ position: absolute; bottom: 0; left: 0; height: 34.285%; width: 100%; background-color: rgba(255, 255, 255, 0.8); z-index: 1;}
 .personal-touxiang{ position: absolute; left: 0; top: 24.285%; z-index: 2;}
 .personal-touxiang{ text-align: center; width: 100%;}
@@ -187,8 +187,8 @@ input::-webkit-search-cancel-button {
 .price-pingtai{ color: #e60012; font-size: 2.4rem; text-align: center;}
 .price-pingtai span{ display: inline-block; border: 1px solid #e60012; border-radius: 8px; padding: 2px 4px;}
 .address-collection { font-size: 1.8rem; padding:10% 56px 0 13.33%;}
-.address-collection > span{ color: #999;}
-.address-collection > span > i{ margin-right: 6%; color: #c9c9c9; font-size: 2.4rem;}
+.address-collection > span{ color: #999; display: inline-block; width: 100%; text-overflow: ellipsis; white-space: nowrap; overflow: hidden;}
+.address-collection > span > i{ margin-right: 4px; color: #c9c9c9; font-size: 2.4rem;}
 .address-collection > a{ display: inline-block; width: 56px; height: 56px; background-color: #29b4bd; text-align: center; line-height: 56px; position: absolute; bottom: 0; right: 0;}
 .address-collection > a >i{font-size: 3.4rem; color: white; line-height: 56px;}
 .add-more{ text-align: center; font-size: 2.8rem; color: #999;margin: 6% 0;}
@@ -323,8 +323,8 @@ input::-webkit-search-cancel-button {
 
 /* wode-hunli
 -------------------------------------------------------------------------------- */
-.img-6{ width:49.2%; background-color: white;float: left;}
-.img-6:first-child{margin-right: 1.6%;}
+.img-6{ width:49.2%; background-color: white;float: left; margin-bottom: 10px;}
+.img-6:nth-child(2n){margin-left: 1.6%;}
 
 .tab-module2 > .nav-tabs{ margin-bottom: 1.5625%;}
 .tab-module2 > .nav-tabs {border-bottom:none; background-color: #eee;}
@@ -465,10 +465,10 @@ input::-webkit-search-cancel-button {
 }
 
 @media screen and (max-width : 480px) {
-	html{ font-size: 7.5px;}
+	html{ font-size: 6px;}
 	.pd10 {padding: 0;}
 	.pd15 {padding: 5px;}
-	.circle3 a{ padding-top: 17px; height: 112px; width: 112px; border-radius: 56px;}
+	.circle3 a{ padding-top: 22px; height: 112px; width: 112px; border-radius: 56px;}
 	.guide-btn a{padding: 30px 0;}
 	.personal-banner{ height: 262px;}
 	.personal-touxiang .user-img{ width: 139px;height: 139px; border: 7px solid #29b4bd;}
@@ -495,10 +495,10 @@ input::-webkit-search-cancel-button {
 	.case-block > .mark .fa-gift{ margin-left: 5px;}
 	.module-block-top{ padding:4.6875% 15px;}
 	.case-text a span{padding-left: 15px;}
-	.mark-block > h2 .shoucang{ top: 9px;}
+	.mark-block > h2 .shoucang{ top: 2px;}
 }
 
-@media screen and (max-width : 360px) {
+@media screen and (max-width : 376px) {
 	html{ font-size: 5.6px;}
 	.circle3 a{ padding-top: 16px; height: 84px; width: 84px; border-radius: 42px;}
 	.guide-btn a{padding: 21px 0;}
@@ -518,6 +518,7 @@ input::-webkit-search-cancel-button {
 	.form-module .form-text{ height: 49px;}
 	.module-block-top{ padding:4.6875% 10px;}
 	.mark-block > h2 .shoucang{ top: 6px;}
+	.img-6{ margin-bottom: 5px;}
 }
 
 
