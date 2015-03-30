@@ -496,6 +496,7 @@ input::-webkit-search-cancel-button {
 	.module-block-top{ padding:4.6875% 15px;}
 	.case-text a span{padding-left: 15px;}
 	.mark-block > h2 .shoucang{ top: 2px;}
+	.yuyue-bg{min-height: 736px;}
 }
 
 @media screen and (max-width : 376px) {
@@ -519,6 +520,7 @@ input::-webkit-search-cancel-button {
 	.module-block-top{ padding:4.6875% 10px;}
 	.mark-block > h2 .shoucang{ top: 6px;}
 	.img-6{ margin-bottom: 5px;}
+	.yuyue-bg{min-height: 667px;}
 }
 
 
@@ -538,5 +540,5 @@ input::-webkit-search-cancel-button {
 	.average-box-red .address-collection{ padding-top: 16px;}
 	.form-module .form-text{ height: 44px;}
 	.mark-block > h2 .shoucang{ top: 5px;}
-	
+	.yuyue-bg{min-height: 480px;}
 }

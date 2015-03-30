@@ -48,7 +48,7 @@
 											<a href="javascript:void(0)">团购套系</a>
 										</dd>
 									</dl>
-
+						
 									<dl>
 										<dt>风格</dt>
 										<dd>
@@ -60,7 +60,7 @@
 											<a href="javascript:void(0)">欧美</a>
 										</dd>
 									</dl>
-
+						
 									<dl>
 										<dt>分类</dt>
 										<dd>
@@ -75,6 +75,54 @@
 					</div>
 
 					<div class="img-txt-average">
+						<div class="average-box2 average-box-mark">
+							<div class="pd10 clearfix">
+								<div class="average-40">
+									<a href="javascript:void:(0)">
+										<img class="img-responsive" src="images/grey236.jpg" alt="238x238">
+										<span class="mini-mark">优惠</span>
+									</a>
+								</div>
+								<div class="average-60">
+									<h2><a href="javascript:void(0)">MENGBA婚纱摄影</a></h2>
+									<p class="renzheng-mark14"><span>平台认证机构</span></p>
+									<p class="all-num">
+										<a href="javascript:void(0)"><span>婚纱套系<em>9</em>套</span>优惠<i>5</i>套</a>
+									</p>
+									<p class="price">价格：<span>30000-60000</span></p>
+									<div class="address-collection">
+										<span><i class="fa fa-map-marker"></i>运城盐湖区国际酒店</span>
+										<!-- <a href="javascript:void(0)"><i class="fa fa-star"></i></a> --><!-- 已收藏 -->
+										<a href="javascript:void(0)"><i class="fa fa-star-o"></i></a><!-- 未收藏 -->
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="average-box2 average-box-mark">
+							<div class="pd10 clearfix">
+								<div class="average-40">
+									<a href="javascript:void:(0)">
+										<img class="img-responsive" src="images/grey236.jpg" alt="238x238">
+										<span class="mini-mark">优惠</span>
+									</a>
+								</div>
+								<div class="average-60">
+									<h2><a href="javascript:void(0)">MENGBA婚纱摄影</a></h2>
+									<p class="renzheng-mark14"><span>平台认证机构</span></p>
+									<p class="all-num">
+										<a href="javascript:void(0)"><span>婚纱套系<em>9</em>套</span>优惠<i>5</i>套</a>
+									</p>
+									<p class="price">价格：<span>30000-60000</span></p>
+									<div class="address-collection">
+										<span><i class="fa fa-map-marker"></i>运城盐湖区国际酒店</span>
+										<!-- <a href="javascript:void(0)"><i class="fa fa-star"></i></a> --><!-- 已收藏 -->
+										<a href="javascript:void(0)"><i class="fa fa-star-o"></i></a><!-- 未收藏 -->
+									</div>
+								</div>
+							</div>
+						</div>
+
 						<div class="average-box2 average-box-mark">
 							<div class="pd10 clearfix">
 								<div class="average-40">

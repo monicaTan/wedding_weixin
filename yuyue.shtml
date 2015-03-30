@@ -12,7 +12,7 @@
 
 <!-- main-content -->
 <div class="main-content">
-	<div class="module">
+	<div class="module yuyue-bg">
 		<div class="top-center">
 			<a href="javascript:void(0)"><img class="img-circle" src="images/user.jpg"></a>
 			<p class="biaoyu">我们将竭诚为您服务</p>
@@ -21,7 +21,7 @@
 			<form>
 				<input type="text" class="form-text" placeholder="您的电话">
 				<input type="text" class="form-text" placeholder="您的姓名">
-				<input type="text" class="form-text" placeholder="您的婚期">
+				<!-- <input type="text" class="form-text" placeholder="您的婚期"> -->
 				<button type="button" class="btn btn-primary btn-block">免费预约</button>
 			</form>
 			<p class="biaoyu">我们的婚礼顾问将在稍后为您回拨</p>
