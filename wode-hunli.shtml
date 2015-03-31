@@ -46,6 +46,29 @@
 							</div>
 						</div>
 						<div class="img-6">
+							<div class="box-img-link">
+								<div class="box-img-txt">
+									<a href="javascript:void(0)"><img src="images/img2.jpg" alt="300x200的比例"></a>
+									<p>皮皮婚纱摄影工作室</p>
+									<p>《罗马假日主题》</p>
+									<p>12880/套</p>
+								</div>
+								<a href="javascript:void(0)">删除</a>
+							</div>
+						</div>
+						<div class="img-6">
+							<!-- 婚礼人（头像，logo)为原形图片img-circle;（套系，婚纱摄影，酒店）为长方形图片 -->
+							<div class="box-img-link">
+								<div class="box-img-txt">
+									<a class="img-circle" href="javascript:void(0)"><img class="img-circle" src="images/user.jpg" alt="方形"></a>
+									<p>婚礼策划师：刘皮皮</p>
+									<p>《罗马假日主题》</p>
+									<p>12880/套</p>
+								</div>
+								<a href="javascript:void(0)">删除</a>
+							</div>
+						</div>
+						<div class="img-6">
 							<!-- 婚礼人（头像，logo)为原形图片img-circle;（套系，婚纱摄影，酒店）为长方形图片 -->
 							<div class="box-img-link">
 								<div class="box-img-txt">

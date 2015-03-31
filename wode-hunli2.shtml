@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--#include file="inc/common.shtml"--> 
+<title>我的婚礼</title>
+<!--#include file="inc/ie.shtml"-->
+</head>
+
+<body>
+
+
+<!-- main-content -->
+<div class="main-content main-content-pd0">
+	<div class="bg-e">
+		<div class="tab-module2">
+			<ul class="nav nav-tabs" role="tablist" id="myTab">
+				<li role="presentation" class="active"><a href="#wodeyuyue" aria-controls="wodeyuyue" role="tab" data-toggle="tab">我的预约</a></li>
+				<li role="presentation"><a href="#wodeshoucang" aria-controls="wodeshoucang" role="tab" data-toggle="tab">我的收藏</a></li>
+			</ul>
+
+			<div class="tab-content">
+				<div role="tabpanel" class="tab-pane active" id="wodeyuyue">
+					<div id="main-module">
+					    <div class="box-module">
+					        <div class="pic-module">
+					            <a href="javascript:void(0)">
+					                <img src="./images/img2.jpg"/>
+					            </a>
+					            <p>皮皮婚纱摄影工作室</p>
+					            <p>《罗马假日主题》</p>
+					            <p>12880/套</p>
+					        </div>
+					    </div>
+					    <div class="box-module">
+					        <div class="pic-module">
+					            <a class="img-circle" href="javascript:void(0)">
+					                <img src="./images/user.jpg"/>
+					            </a>
+					            <p>婚礼策划师：刘皮皮</p>
+					            <p>《罗马假日主题》</p>
+					            <p>12880/套</p>
+					        </div>
+					    </div>
+					    <div class="box-module">
+					        <div class="pic-module">
+					            <a class="img-circle" href="javascript:void(0)">
+					                <img src="./images/user.jpg"/>
+					            </a>
+					            <p>婚礼策划师：刘皮皮</p>
+					            <p>《罗马假日主题》</p>
+					            <p>12880/套</p>
+					        </div>
+					    </div>
+					    <div class="box-module">
+					        <div class="pic-module">
+					            <a href="javascript:void(0)">
+					                <img src="./images/img2.jpg"/>
+					            </a>
+					            <p>皮皮婚纱摄影工作室</p>
+					            <p>《罗马假日主题》</p>
+					            <p>12880/套</p>
+					        </div>
+					    </div>
+					</div>
+				</div>
+				<div role="tabpanel" class="tab-pane" id="wodeshoucang">
+					<div class="img-tab clearfix">
+						<div class="box-module">
+					        <div class="pic-module">
+					            <a class="img-circle" href="javascript:void(0)">
+					                <img src="./images/user.jpg"/>
+					            </a>
+					            <p>婚礼策划师：刘皮皮</p>
+					            <p>《罗马假日主题》</p>
+					            <p>12880/套</p>
+					        </div>
+					    </div>
+					    <div class="box-module">
+					        <div class="pic-module">
+					            <a href="javascript:void(0)">
+					                <img src="./images/img2.jpg"/>
+					            </a>
+					            <p>皮皮婚纱摄影工作室</p>
+					            <p>《罗马假日主题》</p>
+					            <p>12880/套</p>
+					        </div>
+					    </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--#include file="inc/footer.shtml"-->
+
+<!-- 瀑布流 -->
+<script type="text/javascript" src="js/waterfall-auto.js"></script>
+
+</body>
+</html>
