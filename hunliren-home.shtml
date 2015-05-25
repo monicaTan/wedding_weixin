@@ -110,6 +110,10 @@
 				</div>
 			</div>
 		</div>
+		<div class="bottom-btn-fixed">
+			<a href="javascript:void(0);">预约</a>
+			<a href="javascript:void(0);">购买</a>
+		</div>
 	</div>
 </div>
 

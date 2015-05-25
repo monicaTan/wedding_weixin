@@ -8,7 +8,7 @@ function waterfall(){
         $('.pic-module').width(imgW);
         $('.box-module').css('padding',Math.floor(dw*0.01));
         
-    var $boxs = $('#main-module > div');
+    var $boxs = $('#main-module .box-module');
     var w = $boxs.eq(0).outerWidth();
     var cols = Math.floor($(window).width()/w);
     $('#main-module').width(cols*w).css('margin','0 auto');

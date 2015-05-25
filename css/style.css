@@ -13,7 +13,7 @@ input::-webkit-search-cancel-button {
 }
 /*gotop*/
 .cbbfixed {position: fixed;right: 10px;transition: bottom ease .3s;bottom: -85px;z-index: 100;cursor:pointer;}
-.cbbfixed .cbbtn {width: 40px;height: 40px; border-radius: 50%; display: block;background-color: #29b4bd;}
+.cbbfixed .cbbtn {width: 40px;height: 40px; border-radius: 50%; display: block;background-color: #72ced4;}
 .cbbfixed .gotop {transition: background-color ease .3s;margin-top: 1px;}
 .cbbfixed .gotop .up-icon{float:left;margin:14px 0 0 9px;width:23px;height:12px;background: url("../images/side-icon02.png");}
 /* .cbbfixed .gotop:hover {background-color:#2c2d2e;} */
@@ -99,7 +99,13 @@ input::-webkit-search-cancel-button {
 .btn-info:active,
 .btn-info.active{ color: #fff; background-color: #72ced4; border-color: #72ced4;}
 
-
+.bottom-btn-fixed{ position: fixed; bottom: 0; z-index: 99; width: 100%; font-size: 0;}
+.bottom-btn-fixed > a{ display: inline-block; float: left; width: 49%; line-height: 9rem; font-size: 3.6rem; text-align: center; background-color: #29b4bd; color: white;}
+.bottom-btn-fixed > a:last-child{ float: right;}
+.bottom-btn-fixed > a:hover,
+.bottom-btn-fixed > a:focus,
+.bottom-btn-fixed > a.focus,
+.bottom-btn-fixed > a.active{ color: #fff; background-color: #72ced4; border-color: #72ced4;}
 
 /* hunli-taoxi
 -------------------------------------------------------------------------------- */
