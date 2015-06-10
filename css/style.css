@@ -202,12 +202,13 @@ input::-webkit-search-cancel-button {
 /* hunliren-liulan
 -------------------------------------------------------------------------------- */
 .div-content-active{ display: block;}
-.average-box2{ position: relative; background-color: white; padding: 1.5625% 0 1.5625%; margin-bottom: 3.125%;}
+.average-box2,
+.average-box3{ position: relative; background-color: white; padding: 1.5625% 0 1.5625%; margin-bottom: 3.125%;}
 .average-40,
 .average-60{ padding: 0 5px; float: left;}
 
 .average-40{ width: 40%;}
-.average-40 > a{ width: 100%; display: inline-block; position: relative;}
+.average-40 > a{ width: 100%; display: inline-block; position: relative; color: #333;}
 .average-60{ width: 60%;}
 .renzheng-pingtai{color: #29b4bd; font-size: 2.4rem; text-align: center; margin-bottom: 7.73%;}
 .renzheng-pingtai span{display: inline-block; border: 1px solid #29b4bd; border-radius: 8px; padding: 2px 4px;}
@@ -240,6 +241,14 @@ input::-webkit-search-cancel-button {
 .average-60 .renzheng-mark14{ margin-bottom: 10.6%;}
 .average-60 .renzheng-mark14 span{ font-size: 1.4rem; display: inline-block; border: 1px solid #333; border-radius: 0; padding: 2px 4px; text-align: center;}
 
+.average-box-mark .average-12{ float: left; width: 12%;}
+.average-box-mark .average-32{ float: left; width: 32%;}
+.average-box-mark .average-32 a{ color: #333;}
+.average-box-mark .average-32 a .img-circle{ margin: 0 auto;}
+.average-box-mark .average-52 .price-center{text-align: center; font-size: 2.6rem; padding: 18% 0 4%;}
+.average-box-mark .average-52 .price-center span{ color: #e60012; font-size: 3.6rem;}
+.average-box-mark .average-52 .btn-dingdan{ font-size: 2.4rem;}
+.average-box-mark .average-52{ float: right; width: 52%;}
 .average-box-mark .average-60{ float: right; width: 54%;}
 .average-box-mark h2,
 .average-box-mark p{ text-align: left;}
@@ -507,6 +516,17 @@ input::-webkit-search-cancel-button {
 .lb-data .lb-number { display: block; clear: left; padding-bottom: 1em; font-size: 12px; color: #999999; }
 .lb-data .lb-close { display: block; float: right; width: 30px; height: 30px; background: url(../images/close3.png) top right no-repeat; background-size: 18px auto; text-align: right; outline: none; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; -webkit-transition: opacity 0.2s; -moz-transition: opacity 0.2s; -o-transition: opacity 0.2s; transition: opacity 0.2s; }
 .lb-data .lb-close:hover { cursor: pointer; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100); opacity: 1; }
+
+.average-box-mark .order-text{ font-size: 2.2rem; text-align: center; padding-top: 5px; line-height: 2.4rem;}
+.settlement-module{ line-height: 10rem; font-size: 3rem;}
+.settlement-module .checkbox,
+.settlement-module input{ margin: 0; white-space: nowrap;}
+.dingdan-jiesuan{ background-color: white; color: #29b4bd;}
+.focus-txt{ color: #e60012;}
+.btn-finish{ position: absolute; top: 0; right: 0;padding: 0 20%; color: white; background-color: #29b4bd;}
+.btn-finish:hover,
+.btn-finish:active,
+.btn-finish:focus{ color: white; background-color: #72ced4; border-color: #72ced4; }
 
 
 
