@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--#include file="inc/common.shtml"--> 
+<title>婚礼策划</title>
+<!--#include file="inc/ie.shtml"-->
+</head>
+
+<body>
+
+
+<!-- main-content -->
+<div class="main-content">
+	<div class="module yuyue-bg">
+		<div class="top-center">
+			<h2>请填写资料</h2>
+		</div>
+		<div class="form-module">
+			<form class="form-box">
+			  <div class="form-group">
+			    <label for="exampleInputEmail1">姓名</label>
+			    <input type="text" class="form-control form-text" id="exampleInputEmail1" placeholder="您的姓名">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputFile">电话</label>
+			    <input type="text" class="form-control form-text" id="exampleInputFile" placeholder="请填写您的手机号码">
+			    <p class="help-block">请输入正确的手机号码</p>
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputFile">标题些什么</label>
+			    <textarea class="form-control" placeholder="Textarea" rows="3"></textarea>
+			  </div>
+
+			  <button class="btn btn-primary btn-block" type="button">提交</button>
+			</form>
+		</div>
+		<div class="module-bottom">
+			<p class="biaoyu">您也可以拨打下方电话直接咨询</p>
+			<p class="tel">400-800-8888</p>
+		</div>
+	</div>
+</div>
+
+<!--#include file="inc/footer.shtml"-->
+
+</body>
+</html>
